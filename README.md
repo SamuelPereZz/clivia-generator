@@ -7,7 +7,7 @@ Ruby: You must have Ruby installed on your system. You can download it from the 
 
 ## Installation
 
-1. **Clone the repository to your local machine:**:
+1. **Clone the repository to your local machine:**
 
    ```shell
    git clone git@github.com:SamuelPereZz/clivia-generator.git
