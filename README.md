@@ -1,5 +1,43 @@
 # CLIvia generator
 
+CLIvia Generator is a console application written in Ruby that allows you to play a question and answer game. The application connects to an API to fetch the questions and answers, and lets you save your scores.
+
+## Requirements
+Ruby: You must have Ruby installed on your system. You can download it from the [official Ruby website](https://www.ruby-lang.org/en/downloads/).
+
+## Installation
+
+1. **Clone the repository to your local machine:**:
+
+   ```shell
+   git clone git@github.com:SamuelPereZz/clivia-generator.git
+   cd clivia-generator
+   ```
+
+2. **Install the project dependencies** If your project uses a Gemfile, you can install the necessary gems with the following command:
+
+   ```shell
+   bundle install
+   ```
+   
+  > [!NOTE]
+  > If a `Gemfile` is not used, you can install gems directly with `gem install`.
+
+## Usage
+
+To start the application, navigate to the directory where the `main.rb` file is located and run the following command:
+
+   ```shell
+   ruby main.rb
+   ```
+This will start the application and display the main menu.
+
+### Menu Options
+
+- **random:** Loads 10 random questions from the API and displays them one by one. You can select an option by typing the corresponding number and pressing Enter.
+- **scores:** Displays the scores that have been saved previously.
+- **exit:** Exits the application.
+
 ## Start the program
 
 When the program starts, we will initialize the scores filename, the array of
