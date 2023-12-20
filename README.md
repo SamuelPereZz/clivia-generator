@@ -32,12 +32,6 @@ To start the application, navigate to the directory where the `main.rb` file is 
    ```
 This will start the application and display the main menu.
 
-### Menu Options
-
-- **random:** Loads 10 random questions from the API and displays them one by one. You can select an option by typing the corresponding number and pressing Enter.
-- **scores:** Displays the scores that have been saved previously.
-- **exit:** Exits the application.
-
 ## Start the program
 
 When the program starts, we will initialize the scores filename, the array of
